@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.list {
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 33%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+
+.list li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.list li a:hover {
+  color: gray;
+}
+
+.navright {
+  width: 50%;
+
+  text-align: right;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid gray;
+  border-radius: 9px;
+  outline: none;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url(image/2.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstsection {
+  height: 100vh;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-ser;
+  max-width: 50%;
+  margin: auto;
+  height: 75%;
+}
+
+.firsthalf {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondhalf {
+  width: 30%;
+}
+
+.secondhalf img {
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+.text-big {
+  font-size: 40px;
+}
+
+.text-small {
+  font-size: 18px;
+}
+.btn {
+  padding: 7px 20px;
+  margin: 7px 0px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}

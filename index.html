@@ -6,19 +6,26 @@
     <link rel="short icon" type="images/png" href="image/3.jpg" />
     <title>iEducate - TRANFROMING ONLINE EDUCATION</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    
   </head>
   <body>
-    <nav class="navbar background">
-      <ul class="list">
+    <nav class="navbar background h-nav">
+      <ul class="list v-class">
         <div class="logo"><img src="image/i.jpg" alt="logo" /></div>
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#contact-us">CONTACT US</a></li>
       </ul>
-      <div class="navright">
+      <div class="navright v-class">
         <input type="text" name="search" id="search" />
         <button class="btn btn-sm">SEARCH</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
     </nav>
     <section class="background firstsection">
@@ -98,12 +105,23 @@
         <img src="image/u.jpg" alt="image" class="fluid" />
       </div>
     </section>
-    <hr>
+    <hr />
     <section id="contact-us">
-    <h2 class="text-center">Contact us </h2>
-    <div class="form">
-      <input type="text" name="name" id="name">
-    </div>
+      <h1 class="text-center">Contact us</h1>
+      <div class="form">
+        <input class="form-input" type="name" name="name" id="name" placeholder="Name" />
+        <input class="form-input" type="phone number" name="phone number" id="phone number" placeholder=" Phone number" />
+        <input class="form-input" type="email" name="Email" id="Email" placeholder=" Email Address" />
+        <h2>Message</h2>
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10"></textarea>
+           <button class="btn ">Submit</button>
+      </div>
     </section>
+    <footer class="background">
+      <h3 class="p">
+      Copyright &copy; 2020 www.iEducate.com - All right reserved
+      </h3>
+    </footer>
+    
   </body>
 </html>
